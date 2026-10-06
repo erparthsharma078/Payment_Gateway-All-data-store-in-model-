@@ -1,0 +1,51 @@
+use ritika;
+select char(34);
+select concat("shrishti","khaddar");
+show tables;
+select*from employee;
+select concat(name," ",city)from employee;
+select lower(name)from employee;
+select lcase(name)from employee;
+select lower("SHRISHTI");
+select upper(city)from employee;
+select ucase(name)from employee;
+select upper("shrishti");
+select substring("unnati nodia",4,6);
+select name,substr(name,3,4)from employee; 
+select trim("        shrishti");
+insert into employee values(108," shruti","account","indore",30000);
+select empno,trim(name)from employee;
+select length("shrishti");
+select name,length(name)from employee;
+select length(name)from employee;
+
+
+select mod(15,4);
+select pow(8,4);
+select round(1234.3456);
+select sign(-20);
+select sign(40);
+select sqrt(5);
+select sqrt(45);
+
+select curdate();
+select CURRENT_DATE();
+select CURRENT_DATE;
+select DATE('2026-08-04  01:02:07');
+select month('2006-07-05');
+select year('2006-07-05');
+select now();
+select sysdate();
+
+select min(salary)from employee;
+select min(salary)as 'minimum salary' from employee;
+select max(salary)from employee;
+select max(salary)as 'maximum salary' from employee;
+select count(*)from employee;
+select count(name)from employee;
+select count(*)as"Total Employee"from employee;
+select count(name)as"Total Records"from employee;
+select sum(salary)from employee;
+select sum(salary)as 'Total Amount'from employee;
+select avg(salary)from employee;
+select avg(salary)as "Average Salary" from employee;

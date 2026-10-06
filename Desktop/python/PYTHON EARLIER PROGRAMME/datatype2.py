@@ -1,0 +1,53 @@
+# # l=[10,20,30]
+# # # print(l.index(10))
+# # print(l.index('10'))
+# # print(l.index(10,1))
+# # print(l.index(10,0))
+# # l=[10,20,30,'python class',10.5]
+# # l.pop()
+# # print(l)
+# # l.pop(1)
+# # print(l)
+# # print(l.pop())
+# # print(l)
+# # print(l.pop(1))
+# # print(l)
+# # l=[10,20,30,40,50]
+# # l.pop()
+# # print(l)
+# # print(l.pop())
+# # print(l)
+# # print(l.pop(0))
+# # print(l)
+# # l=[10,20,30,'python']
+# # # l.remove(10)
+# # # print(l)
+# # print(l.remove('python'))
+# # l=[1,2,3,4,'python','java']
+# # # l.sort()
+# # l=['python','java','php','Azure']
+# # # print(id(l))
+# # # l.sort()
+# # # print(l)
+# # # print(id(l))
+# # l.reverse()
+# # print(l)
+# # l.sort()
+# # print(l)
+# # l.reverse()
+# # print(l)
+# # l.sort(reverse=True)
+# # print(l)
+# # l=[1,2,3,4,4,10,2,3]
+# # print(l.count(10))
+# # print(l.count(2))
+# # print(l.count(100))
+# t=(10,20,30,'python',10,10)
+# # print(t.index(10))
+# # print(t.index(10,2))
+# # print(t.index(100))
+# print(t.count(100))
+
+my_list=[10,20,30]
+my_list.extend({10,20,30,'java script'})
+print(my_list)
