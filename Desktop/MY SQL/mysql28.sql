@@ -1,0 +1,26 @@
+use bhopal;
+drop table product;
+create table product(pno int(10),name varchar(10),qty int(10),rate int(10),total int(10));
+insert into product(pno,name,qty,rate)values(1001,'mouse',5,200);
+insert into product(pno,name,qty,rate)values(1002,'cpu',2,240);
+insert into product(pno,name,qty,rate)values(1001,'mouse',2,250);
+insert into product(pno,name,qty,rate)values(1003,'keyboard',1,700);
+insert into product(pno,name,qty,rate)values(1001,'mouse',1,270);
+insert into product(pno,name,qty,rate)values(1002,'cpu',4,2200);
+insert into product(pno,name,qty,rate)values(1004,'monitor',3,4500);
+insert into product(pno,name,qty,rate)values(1002,'cpu',6,2500);
+insert into product(pno,name,qty,rate)values(1003,'keyboard',8,210);
+insert into product(pno,name,qty,rate)values(1001,'mouse',2,280);
+select*from product;
+update product set total=qty*rate;
+SET SQL_SAFE_UPDATES=0;
+select sum(total) as "Total Amount" from product;
+select name,sum(total) as "Total Amount" from product group by name;
+select name,sum(total) as "Total Amount" from product where name="mouse" or name="cpu" group by name;
+select name,avg(total) as "Total Amount" from product group by name;
+select name,min(total) as "Total Amount" from product group by name;
+select name,max(total) as "Total Amount" from product group by name; 
+select name,count(total)as "Total Amount" from product group by name;
+
+select name,sum(qty),sum(total) from product group by name;
+select pno,name, sum(qty),sum(total) from product group by name,pno;

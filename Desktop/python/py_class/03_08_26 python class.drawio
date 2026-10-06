@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="c64zqyFPHrJUTlZ-q8J6">
+    <mxGraphModel dx="1330" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-7" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-8" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-10" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="Set : -" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;align=left;" value="1. Collection Of unique elements." vertex="1">
+          <mxGeometry height="40" width="220" x="160" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-3" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;" value="2. enclosed with { }." vertex="1">
+          <mxGeometry height="40" width="220" x="160" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;align=left;" value="3. Elements are separated by comma(,)" vertex="1">
+          <mxGeometry height="40" width="220" x="160" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-5" parent="1" style="whiteSpace=wrap;html=1;align=left;fillColor=#fad7ac;strokeColor=#b46504;" value="Example: myset = {10,20,30,10,20,30,&quot;python&quot;}&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;print(myset,type(myset))&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-6" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;align=left;" value="4. Unordered collection." vertex="1">
+          <mxGeometry height="40" width="220" x="160" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-9" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-11" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-12" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-13" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-14" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="Frozenset:-" vertex="1">
+          <mxGeometry height="40" width="120" x="430" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-16" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;align=left;" value="1. Collection Of unique elements." vertex="1">
+          <mxGeometry height="40" width="220" x="550" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-17" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;align=left;" value="2. enclosed with frozenset()." vertex="1">
+          <mxGeometry height="40" width="220" x="550" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;align=left;" value="3. Elements are separated by comma(,)" vertex="1">
+          <mxGeometry height="40" width="220" x="550" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-19" parent="1" style="whiteSpace=wrap;html=1;align=left;fillColor=#fad7ac;strokeColor=#b46504;" value="Example:&amp;nbsp;&lt;div&gt;fs = frozenset({10,20,30,10,20,30,&quot;python&quot;})&lt;div&gt;print(fs,type(fs))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fs = frozenset([10,20,30,10,20,30,&quot;python&quot;])&lt;div&gt;print(fs,type(fs))&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fs = frozenset((10,20,30,10,20,30,&quot;python&quot;))&lt;div&gt;print(fs,type(fs))&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fs = frozenset(&quot;python&quot;)&lt;/div&gt;&lt;div&gt;print(fs,type(fs))&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="270" x="550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-20" parent="1" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;align=left;" value="4. Unordered collection." vertex="1">
+          <mxGeometry height="40" width="220" x="550" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-21" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yd0cMUJT8_RfBI80kaph-22" edge="1" parent="1" source="Yd0cMUJT8_RfBI80kaph-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" target="Yd0cMUJT8_RfBI80kaph-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

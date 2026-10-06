@@ -1,0 +1,102 @@
+use xyz;
+select*from emp;
+select char(89);
+select concat('shrishti','khaddar');
+select concat('shrishti',' ','khaddar');
+select concat(name,"  ",salary)from emp;
+select lower('SHRISHTI');
+select lcase(name) from emp;
+select lcase('RiTiKa');
+select upper('shrishti');
+select name,ucase(name)from emp;
+select substr('suhani gupta',3,6);
+select substr('ritika rai',4,7);
+select name,substring(name,4,6)from emp;
+select trim('    rishika');
+select length('unnati');
+select name,length(name)from emp;
+
+select mod(14,2);
+select pow(5,5);
+select power(8,6);
+select round(1234.3456);
+select round(5463.3421);
+select sign(-34);
+select sign(54);
+select sqrt(31);
+select truncate(1234,432);
+
+select curdate();
+select current_date();
+select current_date;
+select DATE('2025-12-05 01:02:03');
+select MONTH('2023-06-20');
+select YEAR('2026-07-06');
+select now();
+select sysdate();
+
+select min(salary)from emp;
+select min(salary) as 'Minimun salary' from emp;
+select max(salary)from emp;
+select max(salary) as 'Maximim salary' from emp;
+select count(*)from emp;
+select count(name) from emp;
+select count(name) as 'Total Employee' from emp;
+select sum(salary)from emp;
+select sum(salary) as "Total Amount" from emp; 
+select avg(salary) from emp;
+select avg(salary) as "Average Salary" from emp;
+
+drop table emp;
+create table emp(empno int,name varchar(10),dept varchar(10),doj date,salary int(10));
+insert into emp values(101,'rashmi','hr','2023-07-09', 50000);
+insert into emp values(102,'sumit','account','2025-07-05',43000);
+insert into emp values(103,'monu','sales','2024-03-04',32000);
+insert into emp values(104,'sonu','hr','2022-09-01',12000);
+insert into emp values(105,'raju','admin','2017-02-02',44000);
+insert into emp values(106,'manju','sales','2020-05-08',87000);
+insert into emp values(107,'sanju','hr','2024-06-12',76000);
+insert into emp values(108,'rinku','account','2026-09-17',56000);
+select*from emp;
+select*from emp where doj='2022-09-01';
+select*from emp where doj='2025-07-05';
+select*from emp where doj>='2020-05-08';
+select*from emp where doj<='2022-09-01';
+select year(doj)from emp;
+select*from emp where year(doj)='2026';
+select*from emp where doj between '2020-05-08' and '2026-09-17';
+
+select adddate(current_date,interval 12 day);
+select adddate(current_date,interval -13 day);
+select adddate(current_date,interval 12 week);
+select adddate(current_date,interval -15 week);
+select adddate(current_date,interval 4 month);
+select adddate(current_date,interval -7 month);
+select adddate(current_date,interval 5 year);
+select adddate(current_date,interval -4 year);
+
+select date_format('2005-10-23', '%d/%m/%y');
+select date_format('2005-10-23', '%d/%m/%Y');
+select date_format('2005-10-23', '%D/%m/%y');
+select date_format('2005-10-23', '%d/%M/%y');
+select date_format('2005-10-23', '%a/%D/%M/%Y');
+select name,dept,date_format(doj,'%d/%m/%y') from emp;
+select name,dept,date_format(doj, '%a-%D-%M-%Y') from emp;
+
+create table emp4(empno int primary key auto_increment,name varchar(10),city varchar(10));
+insert into emp4(name,city)values('sashi','bhopal');
+insert into emp4(name,city)values('sonu','indore');
+insert into emp4(name,city)values('monu','bhopal');
+select*from emp4;
+
+alter table emp4 auto_increment=101;
+insert into emp4(name,city)values('anju','bhopal');
+insert into emp4(name,city)values('sanju','indore');
+
+select*from emp4 limit 3;
+select*from emp4 limit 8;
+select*from emp4 limit 1,3;
+select*from emp4 limit 2,3;
+select*from emp order by salary desc;
+select*from emp order by salary desc limit 1;
+select*from emp order by salary desc limit 0,1;

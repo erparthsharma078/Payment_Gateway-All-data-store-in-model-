@@ -1,0 +1,42 @@
+s1="This is python class"
+s2="X"
+#print(s1,s2)
+#print(type(s1),type(s2))
+#print(id(s1),id(s2))
+#print(max(s1),max(s2))
+#print(min(s1),min(s2))
+#print(len(s1),len(s2))
+s="This is Python class"
+
+print(s.lower())
+print(type(s),type(s.lower()))
+print(id(s),id(s.lower()))
+print(id(s),id(s2))
+print(s.upper())
+print(s.title())
+print(s.capitalize())
+print(s.swapcase())
+print(s.index('P'))
+#print(s.index('p'))
+print(s.find('P'))
+print(s.find('p'))
+print(s.replace('s','xyz'))
+print(s.replace('is','xyz'))
+print(s.replace(' ',''))
+print(s.startswith('This'))
+print(s.endswith('class'))
+print(s.endswith('s'))
+s1='python'
+s2='java'
+s3='php'
+print(' '.join([s1,s2,s3]))
+#print(''.join(s1,s2,s3))
+print(' '.join((s1,s2,s3)))
+print('5'.join((s1,s2,s3)))
+print(s.split(' '))
+#print(s.split(''))
+print(s.split(' ',0))
+print(s.split('s'))
+print(s.count('s'))
+print(s.count('bus'))
+print(s.split(' ',2))
